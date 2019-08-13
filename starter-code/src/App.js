@@ -6,7 +6,8 @@ import Main from './components/main/Main';
 
 class App extends Component {
   render() {
-    // console.log(data.data)
+    // console.log(data);
+    // console.log(data.data);
     return (
       <div className="App">
         <Main products = { data.data } />
